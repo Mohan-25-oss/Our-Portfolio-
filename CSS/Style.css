@@ -27,3 +27,54 @@ image{
     display: flex;
 }
 
+/* Navbar section start */
+
+.container{
+width: 1280px;
+margin: 20 auto;
+}
+#navbar{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar_left_side{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.logo_icon_container{
+width: 56px;
+height: 56px;
+border-radius: 100%;
+background: rgb(red, green, blue);
+display: flex;
+align-items: center;
+justify-content: center;
+border-radius: 100%;
+}
+.logo_icon_container span{
+    font-family: poppings;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 56px;
+    letter-spacing: 0%;
+}
+.logo_name{
+    font-family: worksans;
+    color: rgb(red, green, blue);
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 40px;
+    letter-spacing: 0%;
+}
+
+.navbar_right_side{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+/* Navbar section end */
+
+
