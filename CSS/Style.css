@@ -32,11 +32,12 @@ image{
 
 /* Navbar section start */
 .container{
-    width: 1280px;
-    margin: 20  auto;
+    width: 1200px;
+    margin: 0  auto;
 }
 #navbar{
     background-color: #fff;
+    padding: 20px 0;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -110,4 +111,105 @@ image{
 }
 /* Navbar section end */
 
+/* Hero About Section Start */
+#Hero_About .container{}
+/* This is Hero */
+#Hero_About #Hero{}
+#Hero_About #Hero .Hero_left_side{
+    position: absolute;
+    width: 648px;height: 336px;
+    left: 193px;
+    top: 257px;
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 24;
+    padding: 0px;}
+#Hero_About #Hero .Hero_left_side .Hero_description{}
+#Hero_About #Hero .Hero_left_side .Hero_description h1{}
+#Hero_About #Hero .Hero_left_side .Hero_description h1 p{}
+#Hero_About #Hero .Hero_left_side .Hero_description h1 p button{}
+#Hero_About #Hero .Hero_left_side .Hero_description .statistics{
+    position: absolute;
+width: 648px;
+height: 106px;
+left: 333px;
+top: 1094px;
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+gap: 12;
+padding: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 24;
+    padding: 0px;
+}
+#Hero_About #Hero .Hero_left_side .Hero_description .statistics .satistic_items{}
+#Hero_About #Hero .Hero_left_side .Hero_description .statistics .satistic_items h3{}
+#Hero_About #Hero .Hero_left_side .Hero_description .statistics .satistic_items h3 span{}
+#Hero_About #Hero .Hero_right_side{
+    position: absolute;width: 3063.22px;
+    height: 9522.21px;
+    left: -156px;
+    right: -987.22px;
+    top: -254px;
+    bottom: -900.21px;}
+#Hero_About #Hero .Hero_right_side img{
+    display: flex;
+    align-items: self-end;
+}
 
+/* This is About */
+#Hero_About #About{
+    position: static;width: 1920px;
+    height: 1608px;
+    /* Inside Auto Layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 0px;}
+#Hero_About #About .left-side{}
+#Hero_About #About .left-side image{
+    position: absolute;width: 424px;
+    height: 468px;
+    left: 112px;
+    top: 112px;Width: 424pxpx
+    Height: 468pxpx
+    Top: 112pxpx
+    Left: 112pxpx
+    Fillet radius: 10px
+    Layer mode :Pass throughbox-sizing: border-box;
+    /* Gray/50 */
+    border: 1px solid rgb(240, 241, 243);
+    border-radius: 10px;
+    background: url(1),rgb(240, 241, 243);}
+#Hero_About #About .left-side .social_media{}
+#Hero_About #About .left-side .social_media .social_media_icons{}
+#Hero_About #About .right-side{
+    position: static;width: 536px;
+    height: 348px;
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 32;
+    padding: 0px;border-radius: 16px;
+    box-shadow: 0px 36px 105px 0px rgba(43, 56, 76, 0.1);
+    /* Gray/White */
+    background: rgb(255, 255, 255);}
+#Hero_About #About .right-side h3{}
+#Hero_About #About .right-side h3 p{}
+#Hero_About #About .right-side .action{}
+#Hero_About #About .right-side .action .project_btn{}
+#Hero_About #About .right-side .action .download_btn{}
+#Hero_About #About .right-side .action .download_btn svg{}
+#Hero_About #About .right-side .action .download_btn svg span{}
+/* Hero About Section End */
