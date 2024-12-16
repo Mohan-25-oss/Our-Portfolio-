@@ -1,0 +1,354 @@
+
+
+body{
+    background-color: white;
+    padding: 0;
+    margin: 0;
+}
+section{
+   background-color: white;
+   display: flex;
+   justify-content: space-between;
+   padding: 50px;
+}
+
+.left-side{
+    
+    width: 45%;
+}
+
+.right-side{
+   
+    width: 45%;
+}
+image{
+    width: 100%;
+}
+
+.exprience-area{
+    display: flex;
+}
+
+/* Navbar section start */
+.container{
+    width: 1200px;
+    margin: 0  auto;
+}
+#navbar{
+    background-color: #fff;
+    padding: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar_left_side{
+    
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+.logo_icon_container{
+    width: 56px;
+    height: 56px;
+    border-radius: 100%;
+    background-color: rgb(165, 61, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.logo_icon_container span{
+    color: #fff
+    font-family: Work Sans;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 40px;
+    letter-spacing: 5%%;
+    text-align: left;
+}
+.logo_name{
+    color: rgb(19, 34, 56);
+    font-family: Work Sans;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 40px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.navbar_right_side{
+    
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.navbar_link{
+    padding: 12px, 24px;
+}
+.navbar_link span{
+    color: rgb(51, 51, 51);
+    font-family: Work Sans;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.navbar_link_btn{
+    padding: 12px 24px;
+    border-radius: 4px;
+    background-color:rgb(165, 61, 255); 
+}
+.avbar_link_btn span{
+    color: rgb(255, 255, 255);
+    font-family: Work Sans;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+/* Navbar section end */
+
+/* Hero About Section Start */
+#hero_about .container{
+}
+/* This is Hero */
+#hero_about #hero{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+}
+#hero_about #hero .hero_left_side{
+    width: 45%;
+}
+#hero_about #hero .hero_left_side .hero_description{
+    padding-bottom: 214px;
+}
+#hero_about #hero .hero_left_side .hero_description h1{
+    color: rgb(19, 34, 56);
+    font-family: Work Sans;
+    font-size: 72px;
+    font-weight: 600;
+    line-height: 84px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 24px;
+}
+#hero_about #hero .hero_left_side .hero_description h1 p{
+    color: rgb(85, 96, 112);
+    font-family: Work Sans;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 24px;
+}
+#hero_about #hero .hero_left_side .hero_description h1 p button{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 12;
+    padding: 12px 24px 12px 24px;
+    color: rgb(255, 255, 255);
+    font-family: Work Sans;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+    border: none;
+    cursor: pointer;
+}
+#hero_about #hero .hero_left_side .hero_description .statistics{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    padding: 0px;
+    box-sizing: border-box;
+    /* Gray/White */
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 4px;
+    background: rgba(237, 216, 255, 0.5);
+}
+#hero_about #hero .hro_left_side .hero_description .statistics .satistic_items{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 8px;
+    padding: 0px;
+}
+#hero_about #hero .hro_left_side .hero_description .statistics .satistic_items h3{
+    color: rgb(66, 78, 96);
+    font-family: Work Sans;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 40px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+#hero_about #hero .hro_left_side .hero_description .statistics .satistic_items h3 span{
+    /* Body/Regular/400 */
+    color: rgb(105, 116, 132);
+    font-family: Work Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+#hero_about #hero .Hero_right_side{
+    width: 50%;
+}
+#hero_about #hero .hero_right_side img{ 
+    width: 100%;
+    border-radius: 25px;
+}
+
+/* This is About */
+#hero_about #about{
+    display: flex;
+    align-items: center;
+    justify-self: center;
+    flex-direction: row;
+    gap: 136px;
+    padding: 112px;
+    border-radius: 16px;
+    box-shadow: 0px 36px 105px 0px rgba(43, 56, 76, 0.1);
+}
+#hero_about #about .left-side{
+}
+#hero_about #about .left-side image{
+    width: 100%;
+    border: 1px solid rgb(240, 241, 243);
+    border-radius: 10px;
+}
+#hero_about #about .left-side .social_media_icons{
+    display: absulte ;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 12px;
+    border-radius: 4px;
+    box-shadow: 0px 12px 64px 0px rgba(28, 25, 25, 0.12);
+    background: rgb(255, 255, 255);
+    width: 48px;
+    height: 48px;
+}
+#hero_about #about .left-side .social_media .social_media_icons_items{
+    position: static;
+    width: 18px;
+    height: 18px;
+    /* Inside Auto Layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 10px 0px;
+    background: rgb(165, 61, 255);
+    rgb(165, 61, 255)
+}
+#hero_about #about .right-side{
+  
+}
+#hero_about #about .right-side h3{
+    color: rgb(19, 34, 56);
+    font-family: Work Sans;
+    font-size: 38px;
+    font-weight: 600;
+    line-height: 50px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 32px;
+}
+#hero_about #About .right-side h3 p{
+    color: rgb(135, 144, 157);
+    font-family: Work Sans;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 32px;
+}
+#hero_about #about .right-side .action{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 16px;
+    padding: 0px;}
+#hero_about #about .right-side .action .project_btn{
+    border-radius: 4px;
+    background: rgb(165, 61, 255);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    padding: 12px 24px 12px 24px;
+    /* Body/Regular/600 */
+    color: rgb(255, 255, 255);
+    font-family: Work Sans;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+    border: none;
+}
+#hero_about #about .right-side .action .download_btn{
+    box-sizing: border-box;
+    /* Primary/500 */
+    border: 1px solid rgb(165, 61, 255);
+    border-radius: 4px;
+    
+    background: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 12;
+    padding: 12px 24px 12px 24px;
+    
+    /* Inside Auto Layout */
+    flex: none;
+    border: 1px;
+    flex-grow: 0;
+    margin: 0px 16px;
+    /* Body/Regular/600 */
+    color: rgb(165, 61, 255);
+    font-family: Work Sans;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+#hero_about #about .right-side .action .download_btn svg{
+    position: static;
+    width: 24px;
+    height: 24px;
+    /* Inside Auto Layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 12px;
+}
+#hero_about #about .right-side .action .download_btn svg span{
+    /* Body/Regular/600 */
+    color: rgb(165, 61, 255);
+    font-family: Work Sans;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+/* Hero About Section End */
